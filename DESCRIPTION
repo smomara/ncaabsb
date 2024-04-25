@@ -1,0 +1,17 @@
+Package: ncaabsb
+Title: NCAA Baseball Sabermetrics
+Version: 0.0.0.9000
+Authors@R: 
+    person("Sean", "O'Mara", , "mseanomara@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Enhances the functionality of the baseballr library by performing advanced sabermetric calculations on NCAA baseball data. This library is for the 2024 season using 2023 linear weights.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+     baseballr,
+     magrittr,
+     dplyr,
+     tidyr,
